@@ -1,0 +1,28 @@
+.container{
+    width: 100vww;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid > div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
